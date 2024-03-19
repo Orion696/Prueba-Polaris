@@ -1,0 +1,25 @@
+.acordeon-container {
+  position: relative;
+}
+
+.acordeon-toggle {
+  background-color: red;
+  color: white;
+  border: 2px solid darkred;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+  width: auto;
+  cursor: pointer;
+}
+
+.acordeon-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+}

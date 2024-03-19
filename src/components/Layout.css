@@ -1,0 +1,77 @@
+.separator-line {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+  
+.left-column, .central-column, .right-column {
+  padding: 10px;
+}
+
+.central-column .btn.btn-primary {
+  color: white;
+  background-color: red;
+  border-color: darkred;
+  border-radius: 20px;
+}
+
+.left-column .Polaris-Button {
+  background-color: white !important;
+  color: black !important;
+  border: none !important;
+  border-bottom: 2px solid black !important;
+  box-shadow: none !important;
+  padding: 6px 47px 0px 0px;
+  font-size: 20px;
+    font-weight: 700;
+}
+
+.left-column .Polaris-Button:hover {
+  background-color: #f0f0f0 !important;
+  border-bottom: 2px solid darkgrey !important;
+}
+
+.left-column .Polaris-Button:active {
+  background-color: #e0e0e0 !important;
+  border-bottom: 2px solid black !important;
+}
+
+.acordeon-container {
+  margin-top: 20px;
+}
+
+
+.acordeon-content .Polaris-Button, .acordeon-toggle {
+  background-color: red !important;
+    color: white !important;
+    border: 2px solid darkred !important;
+    border-radius: 20px !important;
+    font-weight: bold !important;
+    padding: 5px 20px;
+    text-align: left;
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-left: 0;
+}
+
+.acordeon-content .Polaris-Button {
+  background-color: white !important;
+  color: black !important;
+  border-bottom: 2px solid black !important;
+  box-shadow: none !important;
+  font-size: 17px !important;
+    font-weight: 500 !important;
+  padding: 0px 20px 5px 10px  !important;
+}
+
+.acordeon-content {
+  align-items: center;
+}
