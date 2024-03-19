@@ -46,7 +46,6 @@
   margin-top: 20px;
 }
 
-
 .acordeon-content .Polaris-Button, .acordeon-toggle {
   background-color: red !important;
     color: white !important;
@@ -74,4 +73,29 @@
 
 .acordeon-content {
   align-items: center;
+}
+
+@media (max-width: 333px) {
+  .container-fluid {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      margin-left: -54px;
+  }
+
+  .acordeon-container {
+    margin-top: 20px;
+    margin-left: -14px;
+}
+
+  .acordeon-toggle, .acordeon-content .Polaris-Button {
+      margin: 10px auto;
+      display: block;
+  }
+
+  .acordeon-content {
+      align-items: center;
+      width: 100%;
+  }
 }
