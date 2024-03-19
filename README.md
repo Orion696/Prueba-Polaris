@@ -1,3 +1,33 @@
+Resumen Técnico del Proyecto
+Este proyecto es una implementación avanzada de un layout responsivo de tres columnas, utilizando React junto con el UI toolkit Polaris y estilos de Bootstrap. manipulación dinámica de estilos CSS, y aislamiento de estilos entre componentes.
+
+Características Principales
+
+Framework Principal: React, aprovechando su poderoso sistema de componentes y estados para crear una interfaz dinámica y reactiva.
+
+UI Toolkit: Polaris de Shopify se utilizó para diseñar la interfaz de usuario, proporcionando una experiencia coherente y accesible, con la excepción del área central, donde se optó por Bootstrap para demostrar flexibilidad en el uso de diferentes herramientas de estilos.
+
+Diseño Responsivo: Se implementó un layout que se adapta dinámicamente a diferentes anchos de pantalla, asegurando una experiencia de usuario óptima en dispositivos móviles y de escritorio.
+Manipulación Dinámica de Estilos CSS: Más allá de los requisitos, se desarrolló una funcionalidad que permite a los usuarios cambiar dinámicamente múltiples propiedades CSS de elementos en el área central, no limitándose únicamente al border-radius como se sugería inicialmente.
+Aislamiento de Estilos: Se garantizó que los cambios de estilo realizados en una parte del layout no afectaran a los componentes fuera del área designada, manteniendo así la independencia y cohesión visual de cada sección.
+
+Routing con React Router: Aunque no se requería, se incorporó React Router.
+Estructura de Componentes
+La aplicación se organiza en torno a varios componentes clave, alojados dentro de una carpeta 
+
+
+components:
+
+Acordeon.js y Acordeon.css: Implementan un componente de acordeón que se muestra en resoluciones de pantalla de 990px, 333px o menos, mejorando la experiencia móvil al proporcionar acceso a funcionalidades adicionales sin comprometer el espacio de la pantalla.
+
+CentralContent.js: Muestra contenido estático utilizando HTML y Bootstrap, centrado en la columna principal del layout.
+
+PolarisButton.js: Define un botón estilizado con Polaris, utilizado en diferentes partes del layout para mantener la coherencia visual.
+
+StyleChanger.js: Permite a los usuarios modificar dinámicamente los estilos CSS de elementos específicos, ilustrando una interacción avanzada con la interfaz.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
